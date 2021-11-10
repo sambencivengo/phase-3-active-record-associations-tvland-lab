@@ -1,5 +1,7 @@
 ENV["RACK_ENV"] ||= "development"
 
+
+require 'faker'
 require 'bundler/setup'
 Bundler.require(:default, ENV["RACK_ENV"])
 
